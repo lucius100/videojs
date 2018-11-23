@@ -1,7 +1,7 @@
 var player = videojs('player', {
   plugins: {
     videoJsResolutionSwitcher: {
-      default: 'low',
+      default: '480p',
       dynamicLabel: true
     }
   }
